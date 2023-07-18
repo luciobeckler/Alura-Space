@@ -4,6 +4,8 @@ import styles from './PaginaInicial.module.scss'
 import React from 'react'
 import Cabecalho from '../../components/Cabecalho'
 import Menu from '../../components/Menu'
+import Rodape from '../../components/Rodape'
+import Galeria from '../../components/Galeria'
 
 export default function PaginaInicial() {
   return (
@@ -16,9 +18,12 @@ export default function PaginaInicial() {
                     <h1> A galeria mais completa do espaço</h1>
                     <img src={banner} alt="A imagem da terra vista do espaço" />
                 </div>
-                
             </section>
         </main>
+        <div>
+            <Galeria />
+        </div>
+        <Rodape/>
     </>
     )
 }

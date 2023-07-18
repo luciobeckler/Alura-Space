@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Menu.module.scss'
-
+ 
 import home from '../../assets/icones/home-ativo.png'
 import maisCurtidas from '../../assets/icones/mais-curtidas-inativo.png'
 import maisVistas from '../../assets/icones/mais-vistas-inativo.png'

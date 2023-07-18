@@ -26,7 +26,7 @@ body {
     src: local("GandhiSansRegular"),
     url("../assets/fontes/GandhiSans-Regular.otf") format("truetype"); 
     font-weight: 500;
-    display: swap;
+    font-display: swap;
    }
 
    @font-face {
@@ -34,5 +34,5 @@ body {
     src: local("GandhiSansBold"),
     url("../assets/fontes/GandhiSans-Bold.otf") format("truetype"); 
     font-weight: 700;
-    display: swap;
+    font-display: swap;
    }
