@@ -1,0 +1,7 @@
+//Indica pro react que qualquer import será feito a partir da pasta src
+{
+    "compilerOptions": {
+        "baseUrl": "src"  
+    },
+    "include": ["src"]
+}
